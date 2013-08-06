@@ -1,245 +1,120 @@
 %YAML 1.2
 ---
 
-name:   Fedora Apps
+name:   Fedora community teams
 data:
     description: >
-        This is a landing page for Fedora Apps.  Fedora Infrastructure is
-        <em>huge</em>; this page details only the public facing portion of
-        it all.  Explore!
+        This is a landing page for Fedora teams.  The Fedora community is
+        <em>huge</em>; this page details the teams that make each Fedora
+        release!  Explore!
 children:
--   name:     For New People
+-   name:     Content writing
     data:
         description: >
-            No clue what's going on?  That's okay.. take a look at some of
-            these sites -- they might help you get your bearings.
+            These thoughtful communicators write manuals, guides,
+            blogs posts, articles and more!
     children:
-        -   name:   Ask Fedora
+        -   name:   Artwork
             data:
-                url:    http://ask.fedoraproject.org/
+                url:    https://fedoraproject.org/wiki/Artwork
                 description: >
-                    Any question at all about Fedora?  Ask it here.
-        -   name:   Tagger
-            data:
-                url:    http://apps.fedoraproject.org/tagger
-                description: >
-                    Help build a tag cloud of all our packages.. It's actually
-                    really useful.  It'll help improve the search of the
-                    "Packages" webapp.
-        -   name:   Easyfix
-            data:
-                url:    http://fedoraproject.org/easyfix
-                description: >
-                    A list of easy-to-fix problems for the different projects in
-                    Fedora.  Interested in getting into helping out with sysadmin
-                    work or web application development?  This should be useful
-                    to you.
+                    Write tutorials and articles for the use of the FOSS creative 
+                    tools available in Fedora. 
         -   name:   Docs
             data:
-                url:    http://docs.fedoraproject.org
+                url:    https://fedoraproject.org/wiki/DocsProject
                 description: >
-                    RTFM!  Everything you could ever want to know.
-                    Probably the best place to find documentation about Fedora,
-                    including the changes between releases (and a big kudos to
-                    the translation teams to keep this resource up to date in
-                    the different languages!)
+                    Write documents, guides, how-tos, FAQs, marketing material, 
+                    process/methodology docs, release notes.
+                    Write content in the knowledgebase (kbase) and on the Wiki. 
+        -   name:   News
+            data:
+                url:    https://fedoraproject.org/wiki/NewsProject
+                description: >
+                    Write content for the Fedora weekly magazine!
+        -   name:   Fonts SIG
+            data:
+                url:    https://fedoraproject.org/wiki/Category:Fonts_SIG
+                description: >
+                    Document various fonts, best practices, and a lot more!
+        -   name:   Games SIG
+            data:
+                url:    https://fedoraproject.org/wiki/SIGs/Games
+                description: >
+                     Document the available games, including wiki documentation and listing in comps.xml. 
+        -   name:   Usability SIG
+            data:
+                url:    https://fedoraproject.org/wiki/Usability
+                description: >
+                    write documentation about usability. 
 
--   name:     For the Community
+-   name:   Designer
     data:
         description: >
-            Things for everyone! (chances are, this includes you).
+            Communicate through images
     children:
-        -   name:   Bugzilla
-            icon:   bugzilla.png
+        -   name:   Design
             data:
-                url:    http://bugzilla.redhat.com
+                url:    https://fedoraproject.org/wiki/Design
                 description: >
-                    The Fedora Community makes use of a bugzilla instance
-                    run by Red Hat.  Notice something wrong with a Fedora
-                    package?  You can file an official bug here.
-        -   name:   Paste
+                    Serve as a part of a design firm for the Fedora community, creating 
+                    artwork and designs to for the Fedora community on request. 
+                    Design projects including Fedora Logo, MarketingCollateral, PromoBanners, 
+                    Widgets, Theming Overview, Bluecurve Icon Theme, Echo Icon Theme, 
+                    MediaArt, SoC Posters, T-Shirt Design, Media Gallery
+        -   name:   Fonts SIG
             data:
-                url:    http://paste.stg.fedoraproject.org
+                url:    https://fedoraproject.org/wiki/Category:Fonts_SIG
                 description: >
-                    Our very own pastebin server.  If you yum install the
-                    <strong>fpaste</strong> command, it will use this site
-                    automatically.
-        -   name:   Status
-            icon:   status-good.png
+                    Find the best fonts to include, to please artists
+                    Identify font creation tools that need packaging
+                    Create and improve Fedora fonts
+                    Propose good default fonts
+        -   name:   Usability SIG
             data:
-                url:    http://status.fedoraproject.org
+                url:    https://fedoraproject.org/wiki/Usability
                 description: >
-                    Sometimes the Fedora Infrastructure team messes up (or
-                    lightning strikes our datacenter(s)).  Sorry about that.
-                    You can use this website to check the status.  Is it
-                    "down for everyone, or just me?"<br/>Notice the favicon
-                    in your browser tab.  It changes based on the status,
-                    so if you keep this open you can check back to it at a
-                    glance.
-        -   name:   The Wiki
-            icon:   mediawiki.png
-            data:
-                url:    http://fedoraproject.org/wiki
-                description: >
-                    Maintain your own user profile page, contribute to
-                    documents about features, process, and governance.
-        -   name:   Elections
-            data:
-                url:    http://admin.fedoraproject.org/voting
-                description: >
-                    As a member of the community, you can now vote for the
-                    different steering committees and for this you will use the
-                    Election application.  Voting is a right and a duty as a member
-                    of the community; it is one of the things you can do to
-                    influence the development of Fedora.
-        -   name:   FedoraPeople
-            data:
-                url:    http://fedorapeople.org
-                description: >
-                    Being a community member you gain access to fedorapeople which
-                    provides you with a space on the web where you can upload
-                    files to share them with the community.
-        -   name:   The Planet
-            icon:   planet_logo.png
-            data:
-                url:    http://planet.fedoraproject.org
-                description: >
-                    The planet is a blog aggregator, a space accessible to you
-                    as a community member where you can express your opinion and
-                    talk about what you are doing for Fedora.
-        -   name:   The Mailing lists
-            icon:   mail.png
-            data:
-                url:    http://lists.fedoraproject.org
-                description: >
-                    Mailing lists are used for communication within the community.
-                    There are lists for generic topics and lists more dedicated
-                    to a specific topic, there is for sure one for you.
-        -   name:   Busmon
-            data:
-                url:    http://apps.fedoraproject.org/busmon
-                description: >
-                    A "cardiogram" for the <a href="http://fedmsg.com">fedmsg</a>
-                    project.  It's not really useful for anything, but it's
-                    something pretty to look at -- it can give you the 10,000
-                    foot view of "what's going on in Fedora" in real-time.
-        -   name:   Fedora Hosted
-            icon:   trac.png
-            data:
-                url:    http://fedorahosted.org
-                description: >
-                    Fedora is dedicated to open source software. This
-                    commitment can extend beyond regular Fedora offerings.<br/>
-                    <strong>Fedora Hosted</strong> is our most feature rich
-                    hosting solution. It includes an scm, trac instance,
-                    release dir, account system for access control, etc.
-                    This is our most common hosting option.  When most groups
-                    want hosting, this is what they want.  
-        -   name:   Problem Tracker
-            data:
-                url:    https://retrace.fedoraproject.org
-                description: >
-                    The Problem Tracker is a platform for collecting and
-                    analyzing package crashes reported via ABRT (Automatic Bug
-                    Reporting Tool). It makes it easy to see what problems
-                    users are hitting the most, and allows you to filter them
-                    by Fedora release, associate, or component.
-        -   name:   Blocker Bugs
-            data:
-                url:    http://qa.fedoraproject.org/blockerbugs
-                description: >
-                    The Fedora Blocker Bug Tracker tracks release blocking bugs
-                    and related updates in Fedora releases currently under
-                    development.
-
--   name:   For Packagers
+                    Improve end-user experience with coherent, accessible and intuitive design for Fedora. 
+-   name:   OS Developer
     data:
         description: >
-            Here you'll find apps useful for Packagers' workflow.
+            Communicate through code
     children:
-        -   name:   PkgDB
+        -   name:   Bug triage
             data:
-                url:    http://admin.fedoraproject.org/pkgdb
+                url:    https://fedoraproject.org/wiki/BugZappers
                 description: >
-                    Manage ACLs of your packages.
-        -   name:   Koji
-            icon:   koji.png
+                    Track down and shoot Fedora bugs in bugzilla.redhat.com. 
+                    Strive to be a bridge between users and developers that aids in fixing and closing bugs. 
+        -   name:   Infrastructure
             data:
-                url:    http://koji.fedoraproject.org/koji
+                url:    https://fedoraproject.org/wiki/Infrastructure
                 description: >
-                    Koji is the software that builds RPM packages for the
-                    Fedora project.  It uses Mock to create chroot
-                    environments to perform builds that are both safe and
-                    trusted.
-        -   name:   Bodhi
-            icon:   bodhi.png
+                    Help to provide servers, tools and utilities for the Fedora Project.
+                    Create new applications to make development of Fedora go smoother. 
+        -   name:   Release Engineering
             data:
-                url:    http://admin.fedoraproject.org/updates
+                url:    https://fedoraproject.org/wiki/ReleaseEngineering
                 description: >
-                    The tool you will use to push your packages to the Fedora
-                    repositories as an update, first an update to be tested
-                    (repository: updates-testing) then a stable update
-                    (repository: updates).  Behold -- the <em>Magic
-                    Cabbage.</em>
-        -   name:   Packages
+                    Manage the build system
+                    Maintain package repositories
+                    Create the images for new Fedora releases
+        -   name:   Internationalization (i18n)
             data:
-                url:    http://apps.fedoraproject.org/packages
+                url:    https://fedoraproject.org/wiki/I18N
                 description: >
-                    The best place for someone outside the community to find out
-                    what is in the Fedora repositories. Which packages is present,
-                    in which version, who is maintaining it, what patches have
-                    been applied, what bugs have been reported against it. All
-                    this kind of questions can be answered there.
-        -   name:   SCM
-            icon:   git-logo.png
+                    Develop, package, and maintain applications like input methods for different languages. 
+                    Improve applications and utilities to support and process different languages. 
+                    Quality-assure that existing applications meet i18n standards. 
+                    Support the infrastructure of the Fedora translation community. 
+        -   name:   Packaging
             data:
-                url:    http://pkgs.fedoraproject.org/cgit
-                description:
-                    Ever wonder <em>exactly</em> what is in the new release
-                    of a Fedora package?  This is where the change histories
-                    of all the packages in Fedora for every release of
-                    Fedora (and EPEL) are kept.. forever!  A gold mine.
-
--   name:   For Sysadmins
-    data:
-        description: >
-            Tools for sysadmins -- the people who run the servers who run
-            Fedora (and otherwise).
-    children:
-        -   name:   MirrorManager
-            icon:   downloads.png
-            data:
-                url:    http://mirrors.fedoraproject.org
+                url:    https://fedoraproject.org/wiki/PackageMaintainers/Join
                 description: >
-                    Fedora is distributed to millions of systems globally.
-                    This would not be possible without the donations of time,
-                    disk space, and bandwidth by hundreds of volunteer system
-                    administrators and their companies or institutions.  Your
-                    fast download experience is made possible by these
-                    donations.  The list on the <strong>MirrorManager</strong>
-                    site is dynamically generated every hour, listing only
-                    up-to-date mirrors. 
-        -   name:   Nagios
-            icon:   nagios-logo.png
+                    Become a package maintainer to create and maintain RPM packages for software in Fedora. 
+                    Join the Package Review SIG
+        -   name:   Websites
             data:
-                url:    http://admin.fedoraproject.org/nagios
+                url:    https://fedoraproject.org/wiki/Websites
                 description: >
-                    "Is telia down?"  The answer can most definitively be
-                    found here (and in detail).  The Fedora Infrastructure
-                    team uses Nagios to monitor the servers that serve
-                    Fedora.  Accessing most details requires membership
-                    in the <em>sysadmin</em> group.
-        -   name:   Collectd
-            icon:   collectd.png
-            data:
-                url:    http://admin.fedoraproject.org/collectd
-                description: >
-                    Tracks and displays statistics on the Fedora
-                    Infrastructure machines over time.  Useful for debugging
-                    ineffeciencies and problems.
-        -   name:   HAProxy
-            data:
-                url:    http://admin.fedoraproject.org/haproxy/proxy1
-                description: >
-                    Shows the health of our proxies.  How many bytes?
-                    Concurrent sessions?  Health checks?
+                    Improve Fedoras image and create the best possible interface for users and contributors on the Internet
